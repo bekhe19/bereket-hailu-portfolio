@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url('https://cdn.sanity.io/images/tlr8oxjg/production/a2cb450ec260ec2620123ad98761505fc5bc47ee-1456x816.png?w=3840&q=100&fit=clip&auto=format') no-repeat center center fixed;
+    background-size: cover; /* Cover the whole background */
+    color: #333; /* Change text color for better visibility */
+}
+
+header {
+    background: rgba(53, 66, 74, 0.8); /* Slightly transparent background for header */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #35424a;
+    border-bottom: 2px solid #35424a;
+    padding-bottom: 5px;
+    transition: transform 0.3s ease;
+}
+
+h2:hover {
+    transform: translateY(-5px);
+}
+
+section {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white for sections */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(53, 66, 74, 0.8); /* Slightly transparent footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.social-media {
+    text-align: center;
+    margin: 20px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #35424a;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #0077b5; /* Change to LinkedIn color on hover */
+}
+
+.social-media i {
+    margin-right: 5px;
+}
